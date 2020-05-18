@@ -8,9 +8,10 @@ namespace Cwiczenia5.Services
 {
     public class SqlServerStudentDbService : IStudentDbService
     {
-        //"Data Source=db-mssql;Initial Catalog=s17084;Integrated Security=True";
+        // db-mssql: "Data Source=db-mssql;Initial Catalog=s17084;Integrated Security=True";
+        // local database: "Data Source=DESKTOP-7GSCK0U\\SQLEXPRESS;Initial Catalog=s17084;Integrated Security=True"
         // Operowano na bazie lokalnej w związku z problemami technicznymi db-mssql
-        private static readonly string sqlConnectionString = "Data Source=DESKTOP-7GSCK0U\\SQLEXPRESS;Initial Catalog=s17084;Integrated Security=True";
+        private static readonly string sqlConnectionString = "Data Source=db-mssql;Initial Catalog=s17084;Integrated Security=True";
 
         public SqlServerStudentDbService() { }
 

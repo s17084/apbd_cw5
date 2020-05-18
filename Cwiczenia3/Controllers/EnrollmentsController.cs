@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Cwiczenia5.DTOs.Requests;
-using Cwiczenia5.DTOs.Responses;
+﻿using Cwiczenia5.DTOs.Requests;
 using Cwiczenia5.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cwiczenia5.Controllers
